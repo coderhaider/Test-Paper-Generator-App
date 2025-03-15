@@ -20,12 +20,12 @@
     }
     img{
       position: fixed;
-      top: 200px;
+      top: 250px;
       left: 30%;
-      right: 70%;
+      right: 90%;
       z-index:1;
-      width: 60vh;
-      text-align: center;
+      width: 400px;
+     
     }
     
     .selectors {
