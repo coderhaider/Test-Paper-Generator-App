@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Papter Generator</title>
+    <link rel="stylesheet" href="./test.css">
+</head>
+<body>
+    <a href="https://coderhaider.github.io/coder-haider-Portfolio/ " target="_blank"><img src="./images/Code_You_Haider_Transparent.png" alt="Made by Coder Haider"></a>
+    <h1>Test Paper Generator</h1>
+
+    <!-- subject section -->
+    <label for="subject">Subjects :</label>
+    <select id="subject" onchange="loadDatatwo()" >
+        <option value="">Select Subjects</option>
+    </select>    
+
+    <!-- classes -->
+    
+    <label for="class">Class :</label>
+    <select  id="class" onchange="loadchapters()">
+        <option value="">Select class</option>
+    </select>
+
+    <!-- chatpers section -->
+
+    <label for="chapter">Chapter :</label>
+    <select  id="chapter">
+        <option value="">Select Chapter</option>
+    </select>
+
+    <button onclick="generateTestPaper()">Generate Test Papter</button>
+
+    <div class="child-container ">
+        <div id="questions-list" class="test" ></div>
+
+        <div class="testpaper" id="testpaper">
+        </div>
+    </div>
+
+    <script src="test.js"></script>
+</body>
+</html>

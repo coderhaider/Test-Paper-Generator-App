@@ -1,0 +1,91 @@
+{
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "classes": [
+          {
+            "class": "Class 9",
+            "chapters": [
+              {
+                "chapter": "1 Algebra",
+                "questions": [
+                  {
+                    "question": "Solve for x: 2x + 5 = 15",
+                    "type": "MCQ",
+                    "options": ["5", "10", "7", "4"],
+                    "answer": "7"
+                  },
+                  {
+                    "question": "Solve for x: 2x + 5 = 15",
+                    "type": "MCQ",
+                    "options": ["5", "10", "7", "4"],
+                    "answer": "7"
+                  }
+                ]
+              },
+              {
+                "chapter": "2 Geometry",
+                "questions": [
+                  {
+                    "question": "What is the Pythagorean Theorem?",
+                    "type": "MCQ",
+                    "options": ["a² + b² = c²", "a² + b² = d²", "a² + b = c²", "a + b = c"],
+                    "answer": "a² + b² = c²"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "class": "Class 10",
+            "chapters": [
+              {
+                "chapter": "Trigonometry",
+                "questions": [
+                  {
+                    "question": "What is sin(30°)?",
+                    "type": "MCQ",
+                    "options": ["1/2", "1", "√2", "√3"],
+                    "answer": "1/2"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Science",
+        "classes": [
+          {
+            "class": "Class 9",
+            "chapters": [
+              {
+                "chapter": "Physics",
+                "questions": [
+                  {
+                    "question": "What is Newton's First Law of Motion?",
+                    "type": "MCQ",
+                    "options": ["An object at rest stays at rest", "F = ma", "Energy cannot be created", "None of the above"],
+                    "answer": "An object at rest stays at rest"
+                  }
+                ]
+              },
+              {
+                "chapter": "Chemistry",
+                "questions": [
+                  {
+                    "question": "What is the atomic number of Hydrogen?",
+                    "type": "MCQ",
+                    "options": ["1", "2", "3", "4"],
+                    "answer": "1"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

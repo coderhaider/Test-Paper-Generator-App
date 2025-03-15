@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    padding: 30px 50px;
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(to right bottom, #bbd0ff,#ffd6ff) ;
+    
+  }
+    
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2rem;
+      color: #4A90E2;
+      width: 100%;
+    }
+    img{
+      position: fixed;
+      top: 200px;
+      left: 30%;
+      right: 70%;
+      z-index:1;
+      width: 60vh;
+      text-align: center;
+    }
+    
+    .selectors {
+      margin-bottom: 20px;
+    }
+    
+    label {
+      margin-right: 10px;
+    }
+    
+    select {
+  
+      padding: 10px;
+      font-size: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      width: 100%;
+      outline-color: #e7c6ff;
+      margin-bottom: 20px;
+    }
+    
+    button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #4A90E2;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      margin-bottom: 30px;
+    }
+    
+    button:hover {
+      background-color: #1abc9c;
+    }
+    
+    .test-paper {
+      margin-top: 20px;
+    }
+    
+    .subject {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 20px;
+      color: #2c3e50;
+    }
+    
+    .class {
+      font-size: 16px;
+      font-weight: bold;
+      margin-top: 10px;
+      color: #16a085;
+    }
+    
+    .chapter {
+      font-size: 14px;
+      margin-left: 20px;
+      color: #34495e;
+    }
+    
+    .questions {
+     
+      margin-top: 50px;
+      font-size: 20px;
+    }
+    
+   
+   ol {
+      list-style-type: upper-alpha;
+    }
+    li{
+      margin: 15px 0 10px 20px;
+      color: #2f5174;
+      
+    }
+   
+
+    .child-container{
+      width: 100%;
+      min-height:100vh;
+
+      display: flex;
+      flex-direction: row;
+     
+    }
+    
+    .test{
+      width: 50%;
+    
+      min-height: 100vh;
+      border-right: 2px solid rgb(247, 247, 247);
+    }
+    .testpaper{
+      width: 50%;
+      padding-left: 50px;
+      min-height: 100vh;
+    }
