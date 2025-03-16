@@ -18,17 +18,7 @@
       color: #4A90E2;
       width: 100%;
     }
-    img{
-      position: fixed;
-      top: 250px;
-      left: 30%;
-      right: 90%;
-      z-index:1;
-      width: 400px;
-     
-    }
     
-   
     
     label {
       margin-right: 10px;
