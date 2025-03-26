@@ -120,3 +120,21 @@
       padding-left: 50px;
       min-height: 100vh;
     }
+
+    @media (max-width:767px) {
+      .child-container{
+        display: flex;
+        flex-direction: column;
+        
+      }
+      .test{
+        border: none;
+        min-height: 50vh;
+        width: 100%;
+      }
+      .testpaper{
+  
+        min-height: 50vh;
+        width: 100%;
+      }
+    }
